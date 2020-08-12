@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "888897531950",
+    "firebase_url": "https://easybuy-b8b40.firebaseio.com",
+    "project_id": "easybuy-b8b40",
+    "storage_bucket": "easybuy-b8b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888897531950:android:564d7077fb9de4a1",
+        "android_client_info": {
+          "package_name": "com.example.arpitkumarsah.easybuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888897531950-q4lj2seumumnbts55n5kvsvg8iftvng2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMXVH058AGZcHFGQHOLnHx-fsjts6E9w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888897531950:android:8949c2f7ab85d11d",
+        "android_client_info": {
+          "package_name": "com.example.vineet.easybuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888897531950-q4lj2seumumnbts55n5kvsvg8iftvng2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMXVH058AGZcHFGQHOLnHx-fsjts6E9w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

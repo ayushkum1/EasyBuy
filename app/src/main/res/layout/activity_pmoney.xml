@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pmoneyView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vineet.easybuy.Pmoney">
+
+    <TextView
+        android:id="@+id/pmoneymodule2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="POCKET MONEY MODULE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Amount Required"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/editTextEnterAmt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pmoneymodule2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="for"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pmoneymodule2" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checked="true"
+        android:text="1 Month"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checked="true"
+        android:text="2 Months"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="8dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checked="true"
+        android:text="3 Months"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Request"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView3" />
+
+    <EditText
+        android:id="@+id/editTextEnterAmt"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="eg.: 500,1000,5000"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/pmoneymodule2"
+        app:layout_constraintVertical_bias="0.487" />
+
+</android.support.constraint.ConstraintLayout>

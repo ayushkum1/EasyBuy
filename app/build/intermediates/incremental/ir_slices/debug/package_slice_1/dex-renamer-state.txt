@@ -1,0 +1,4 @@
+#Sat Apr 06 10:46:15 IST 2019
+base.0=/media/admin5/E Drive1/Projects/EasyBuy/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EasyBuy</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t Have An Account? Sign Up</string>
+    <string name="join_us">Join Us</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password_android_string_fingerprint_icon_content_description">Password @android:string/fingerprint_icon_content_description</string>
+    <string name="user_android_string_fingerprint_icon_content_description">user @android:string/fingerprint_icon_content_description</string>
+    <string name="email_android_string_fingerprint_icon_content_description">Email @android:string/fingerprint_icon_content_description</string>
+    <string name="welcome_to_easy_buy">WELCOME TO EASY BUY</string>
+    <string name="instant_delivery_anytime_anything">Instant Delivery, ANYTIME ANYTHING</string>
+    <string name="one_stop_thrift_shop_on_emi">ONE STOP THRIFT SHOP, ON EMI</string>
+    <string name="personal_monetizer">PERSONAL MONETIZER</string>
+    <string name="send_package">SEND PACKAGE</string>
+    <string name="enter_pick_up_location">PICK UP LOCATION</string>
+    <string name="enter_drop_location">DROP LOCATION</string>
+    <string name="enter_the_package_contents">ENTER THE PACKAGE CONTENTS</string>
+    <string name="eg_yelahanka">eg: Yelahanka</string>
+    <string name="estimated_value_of_content">ESTIMATED VALUE OF CONTENT (OPTIONAL)</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="student_loan">Student Loan</string>
+    <string name="pocket_money">POCKET MONEY</string>
+    <string name="enter_amount_to_be_deposited">Enter Amount To Be Deposited</string>
+    <string name="title_activity_delivery_maps">Map</string>
+    <string name="title_activity_drop_loc_maps">Map</string>
+</resources>
